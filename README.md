@@ -26,3 +26,5 @@ ViBoard是个轻量数据可视化软件，软件采用echarts提供大量图表
 
 邮箱：`public@nniai.com`
 
+
+![](https://github.com/nniai/ViBoard/blob/main/assets/wechat.webp)
