@@ -2,9 +2,9 @@
 
 ViBoard是个轻量数据可视化软件，软件采用echarts提供大量图表组件用于设计，所有图表支持高度自定义，并且不依赖于服务器和开发人员，非开发人员也可以设计出高端图表数据可视化。软件分为`设计模式`和`显示模式`，`设计模式`用于设计界面样式和设计图表样式，`显示模式`用于显示已经设计好的界面和图表并提供更新数据接口服务，设计好的界面和图表可以导出给`显示模式`显示。
 
-| Windows | Linux | Mac  | Demo |
+| Windows | Linux | Mac  | 教程 |
 | ----    | ----  | ---- | ---- |
-| [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_windows_amd64.rar) | [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_linux_amd64.xz) | - | [观看](https://github.com/nniai/ViBoard/blob/main/assets/readme.webm) |
+| [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_windows_amd64.rar) | [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_linux_amd64.xz) | - | [观看](https://cdn.jsdelivr.net/gh/nniai/ViBoard@main/assets/readme.webm) |
 
 ## 软件界面
 
