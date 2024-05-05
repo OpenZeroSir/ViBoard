@@ -4,16 +4,15 @@ ViBoard是个轻量数据可视化软件，软件采用echarts提供大量图表
 
 ## 软件下载
 
-| Windows | Linux | Mac  | 教程 |
-| ----    | ----  | ---- | ---- |
-| [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_windows_amd64.rar) | [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_linux_amd64.xz) | - | [观看简易教程](https://cdn.jsdelivr.net/gh/nniai/ViBoard@main/assets/readme.webm)  抖音@FELO有时间的时候做点教程|
+| Windows | Linux | Mac  | 教程 | 案例 |
+| ----    | ----  | ---- | ---- | ---- |
+| [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_windows_amd64.rar) | [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_linux_amd64.xz) | - | [简易教程](https://cdn.jsdelivr.net/gh/nniai/ViBoard@main/assets/readme.webm)  | [案例参考](https://nniai.github.io/assets/style.webm) |
 
 ## 简易逻辑
 ```c
 设计模式->导入excel->设计视图(*.NNIE)->导出视图编码(*.NNIC)
 显示模式->打开视图编码(*.NNIC)->打开远程服务->人工或自动化定时更新数据
 ```
-设计用到一些辅助材料可以参考 [byc233518/display-background-image](https://github.com/byc233518/display-background-image)
 
 ## 软件界面
 
