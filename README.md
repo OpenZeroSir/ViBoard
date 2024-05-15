@@ -4,9 +4,9 @@ ViBoard 数据大屏可视化软件，基于Excel数据设计可视化，像PPT�
 
 ## 软件下载
 
-| Windows | Linux | Mac  | 案例 |
+| Windows | Linux | Mac  | 教程案例 |
 | ----    | ----  | ---- | ---- |
-| [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_windows_amd64.rar) | [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_linux_amd64.xz) | - | [案例参考](https://nniai.github.io/assets/style.webm) |
+| [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_windows_amd64.rar) | [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_linux_amd64.xz) | - | [nniai.com](https://nniai.com) |
 
 ## 简易逻辑
 ```c
