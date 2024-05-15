@@ -4,9 +4,9 @@ ViBoard 数据大屏可视化软件，基于Excel数据设计可视化，像PPT�
 
 ## 软件下载
 
-| Windows | Linux | Mac  | 教程 | 案例 |
-| ----    | ----  | ---- | ---- | ---- |
-| [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_windows_amd64.rar) | [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_linux_amd64.xz) | - | [简易教程](https://cdn.jsdelivr.net/gh/nniai/ViBoard@main/assets/readme.webm)  | [案例参考](https://nniai.github.io/assets/style.webm) |
+| Windows | Linux | Mac  | 案例 |
+| ----    | ----  | ---- | ---- |
+| [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_windows_amd64.rar) | [下载](https://github.com/nniai/ViBoard/releases/download/1.0.0/ViBoard_1.0.0_linux_amd64.xz) | - | [案例参考](https://nniai.github.io/assets/style.webm) |
 
 ## 简易逻辑
 ```c
@@ -14,8 +14,8 @@ ViBoard 数据大屏可视化软件，基于Excel数据设计可视化，像PPT�
 显示模式->打开视图编码(*.NNIC)->打开远程服务->人工或自动化定时更新数据
 ```
 
-## 案例参考
-[样式参考](https://github.com/nniai/ViBoard/assets/121022414/6c4b8fc5-4582-4566-a435-01c4af589c33)
+## 简易教程
+[简易教程.webm](https://github.com/nniai/ViBoard/assets/121022414/5c5cb4b3-7441-488e-8361-9c2c68d9014b)
 
 ## 软件界面
 
