@@ -70,7 +70,7 @@ requests.post(
 
 如您发现软件问题，可以把详细问题发送到我邮箱，当然也可以请我喝杯咖啡或者给我点个星星。
 
-邮箱：`public@nniai.com`
+邮箱：`public@zerosir.com`
 
 
 ![](https://github.com/nniai/ViBoard/blob/main/assets/wechat.webp)
