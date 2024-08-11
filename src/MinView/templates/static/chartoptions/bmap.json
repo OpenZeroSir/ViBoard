@@ -1,0 +1,21 @@
+{
+    "center": {
+        "desc": "地图中心坐标"
+    },
+    "zoom": {
+        "desc": "地图缩放等级",
+        "uiControl": {
+            "type": "number",
+            "default": "14",
+            "min": "0",
+            "max": "19",
+            "step": "1"
+        }
+    },
+    "roam": {
+        "desc": "允许地图缩放或平移",
+        "uiControl": {
+            "type": "boolean"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+build to MinView/templates/static/assets

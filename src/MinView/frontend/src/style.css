@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 0px;
+}
+html::-webkit-scrollbar-thumb {
+    background-color: #00335522;
+    /* 设置滚动条滑块的颜色 */
+    border-radius: 0px;
+    /* 设置滚动条滑块的边角半径 */
+}
+
+div::-webkit-scrollbar{
+    width: 0px;
+}
+div::-webkit-scrollbar-thumb {
+    background-color: #00335522;
+    /* 设置滚动条滑块的颜色 */
+    border-radius: 0px;
+    /* 设置滚动条滑块的边角半径 */
+}
+
+body {
+    margin: 0;
+    /* color: white; */
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+}
+
+
+
+
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 200;
+    src: local(""),
+        url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
+}
+
+/* @font-face {
+    font-family: "Noto Sans Simplified Chinese Black";
+    src: local(""),
+    url("assets/fonts/NotoSansSC-Black.otf");
+} */
+/* @font-face {
+    font-family: "Noto Sans Simplified Chinese";
+    src: local(""),
+    url("assets/fonts/NotoSansSC-Bold.otf");
+} */
+/* @font-face {
+    font-family: "Noto Sans Simplified Chinese Light";
+    src: local(""),
+    url("assets/fonts/NotoSansSC-Light.otf");
+}
+@font-face {
+    font-family: "Noto Sans Simplified Chinese Medium";
+    src: local(""),
+    url("assets/fonts/NotoSansSC-Medium.otf");
+} */
+/* @font-face {
+    font-family: "Noto Sans Simplified Chinese Regular";
+    src: local(""),
+    url("assets/fonts/NotoSansSC-Regular.otf");
+} */
+/* @font-face {
+    font-family: "Noto Sans Simplified Chinese Thin";
+    src: local(""),
+    url("assets/fonts/NotoSansSC-Thin.otf");
+} */
+
+/* @font-face {
+    font-family: "Source Han Sans Simplified Chinese Bold";
+    src: local(""),
+    url("assets/fonts/SourceHanSansSC-Bold.otf");
+} */
+
+/* @font-face {
+    font-family: "Roboto Black";
+    src: local(""),
+    url("assets/fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: "Roboto BlackItalic";
+    src: local(""),
+    url("assets/fonts/Roboto-BlackItalic.ttf");
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: local(""),
+    url("assets/fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto BoldItalic";
+    src: local(""),
+    url("assets/fonts/Roboto-BoldItalic.ttf");
+}
+@font-face {
+    font-family: "Roboto Italic";
+    src: local(""),
+    url("assets/fonts/Roboto-Italic.ttf");
+}
+@font-face {
+    font-family: "Roboto Light";
+    src: local(""),
+    url("assets/fonts/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "Roboto LightItalic";
+    src: local(""),
+    url("assets/fonts/Roboto-LightItalic.ttf");
+}
+@font-face {
+    font-family: "Roboto Medium";
+    src: local(""),
+    url("assets/fonts/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: "Roboto MediumItalic";
+    src: local(""),
+    url("assets/fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: local(""),
+    url("assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto Thin";
+    src: local(""),
+    url("assets/fonts/Roboto-Thin.ttf");
+}
+@font-face {
+    font-family: "Roboto ThinItalic";
+    src: local(""),
+    url("assets/fonts/Roboto-ThinItalic.ttf");
+} */
+
+
+/* .ceil-ui-img{
+    background-image: url("assets/images/charts/133BD9EE-E164-45B3-85E9-1B59D0B3BA1D.webp");
+} */

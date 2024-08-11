@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            #div1,#div2{ float:left; width:150px; height:50px; margin: 10px; padding: 10px; border: 1px dashed #bbbbbb;}
+        </style>
+        <script>
+            function allowDrag(ev){
+                ev.preventDefault();
+            }
+            function drag(ev){
+                ev.dataTransfer.setData("Text","drag1");
+            }
+            function drop(ev){
+                ev.preventDefault();
+                var data = ev.dataTransfer.getData("Text");
+                ev.target.appendChild(document.getElementById(data));
+            }
+        </script>
+    </head>
+ 
+    <body>
+        <div id="div1" ondrop="drop(event)" style="background-color: azure;" ondragover="allowDrag(event)">
+            <img src="1.jpg" width="120px" height="50px" draggable="true" ondragstart="drag(event)" id="drag1" />
+        </div>
+        <div  ondrop="drop(event)" ondragover="allowDrag(event)">
+            <div id="div2"></div>
+        </div>
+ 
+    </body>
+</html>
+

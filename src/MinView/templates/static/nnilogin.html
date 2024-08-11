@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NNI AI SYSTEM</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		input,
+		button {
+			background: transparent;
+			border: 0;
+			outline: none;
+		}
+
+		body {
+			height: 100vh;
+			background: #003355;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 16px;
+			color: #ff9900;
+		}
+
+		.eiaiBox {
+			width: 400px;
+			height: 364px;
+			background-color: #003355;
+			margin: 100px auto;
+			border-radius: 10px;
+			/* box-shadow: 0 5px 5px 0 rgba(248, 249, 247, 0.6); */
+			padding: 20px;
+			box-sizing: border-box;
+		}
+
+		h2 {
+			text-align: center;
+			color: aliceblue;
+			margin-bottom: 30px;
+			font-family: 'Courier New', Courier, monospace;
+		}
+
+		.item {
+			height: 35px;
+			border-bottom: 1px solid #fff;
+			margin-bottom: 1px;
+			position: relative;
+		}
+
+		.item input {
+			width: 100%;
+			height: 100%;
+			color: #fff;
+			padding-top: 20px;
+			box-sizing: border-box;
+		}
+
+		.item input:focus+label,
+		.item input:valid+label {
+			top: 0px;
+			font-size: 2px;
+		}
+
+		.item label {
+			position: absolute;
+			left: 0;
+			top: 12px;
+			transition: all 0.5s linear;
+		}
+
+		.btn {
+			padding: 15px 25px;
+			margin-top: 35px;
+			color: #ff9900;
+			position: relative;
+			overflow: hidden;
+			text-transform: uppercase;
+			/* letter-spacing: 5px; */
+			left: 35%;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 16px;
+			font-weight: bold;
+		}
+
+		.btn:hover {
+			border-radius: 5px;
+			color: #fff;
+		}
+
+		.btn>span {
+			position: absolute;
+		}
+	</style>
+</head>
+
+<script>
+
+	function handleClick() {
+		let username = document.getElementById('username');
+		let password = document.getElementById('password');
+		const data = {
+			username: username.value,
+			password: password.value
+		};
+
+		fetch("/checklogin", {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify(data)
+		})
+			.then(result => {
+				console.log(result)
+				if( (result.status == 200)  && result.redirected){
+					location.replace(result.url)
+				}else{
+					alert(result.statusText)
+				}
+			})
+			.catch(error => {
+				// 处理错误
+				alert(error)
+			});
+	}
+
+</script>
+
+<body>
+	<div class="eiaiBox">
+		<h2><span style="color: #ff9900;">NNI AI SYSTEM</span></h2>
+		<!-- <form action=""> -->
+		<div class="item">
+			<input id="username" type="text" required>
+			<label for="">账号</label>
+		</div>
+		<div class="item">
+			<input id="password" type="password" required>
+			<label for="">密码</label>
+		</div>
+		<button class="btn" onclick="handleClick()">LOGIN</button>
+		<!-- </form> -->
+	</div>
+</body>
+
+</html>
