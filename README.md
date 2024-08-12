@@ -21,15 +21,6 @@ ViBoard 数据大屏可视化软件，基于Excel数据设计可视化，像PPT�
 ## 简易教程
 [demo.webm](https://github.com/OpenZeroSir/ViBoard/assets/121022414/511105f5-e774-48e5-8380-e692143aa5c3)
 
-## 软件界面
-
-1. 设计模式界面
-
-![](https://github.com/OpenZeroSir/ViBoard/blob/main/assets/screenshot.webp)
-
-2. 显示模式界面
-
-![](https://github.com/OpenZeroSir/ViBoard/blob/main/assets/screenshot1.webp)
 
 ## 更新数据
 ```Python
